@@ -1,3 +1,14 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_xlarge">64dp</dimen>
+
+    <dimen name="border_size">1dp</dimen>
+    <dimen name="button_overlay_height">33dp</dimen>
+    <dimen name="sticker_list_height">140dp</dimen>
+    <dimen name="sticker_thumbnail_size">80dp</dimen>
+    <dimen name="thumbnail_size">256dp</dimen>
+    <dimen name="view_album_label_height">49dp</dimen>
 </resources>
