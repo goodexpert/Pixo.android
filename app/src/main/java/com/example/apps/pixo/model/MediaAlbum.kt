@@ -14,8 +14,7 @@ data class MediaAlbum(
     var mediaId: Long,
     var mediaType: MediaType,
     var imageCount: Int,
-    var createdAt: Long,
-    var bitmap: Bitmap? = null
+    var createdAt: Long
 ) : Parcelable {
 
     fun getContentUri(): Uri {
