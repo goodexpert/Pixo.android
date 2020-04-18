@@ -29,14 +29,10 @@ class ListAdapter(activity: Activity) : BaseAdapter<MediaFile>(activity) {
                 listener?.onItemClicked(position, data)
             }
 
-            if (data.bitmap != null) {
-                image.setImageBitmap(data.bitmap)
-            } else {
-                Picasso.get()
-                    .load(data.getContentUri())
-                    .fit()
-                    .into(image)
-            }
+            Picasso.get()
+                .load(data.getContentUri())
+                .fit()
+                .into(image)
         }
     }
 }

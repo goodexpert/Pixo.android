@@ -13,8 +13,7 @@ data class MediaFile(
     var name: String,
     var description: String?,
     var mediaType: MediaType,
-    var createdAt: Long,
-    var bitmap: Bitmap? = null
+    var createdAt: Long
 ) : Parcelable {
 
     fun getContentUri(): Uri {
